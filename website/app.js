@@ -34,9 +34,9 @@ const updateUI = (journal) => {
     const dateElement = document.querySelector('#date');
     const contentElement = document.querySelector('#content');
     if (journal.date && journal.content && journal.temp){
-        tempElement.innerHTML = `${journal.temp} C&deg;`;
-        dateElement.textContent = journal.date;
-        contentElement.textContent = journal.content;
+        tempElement.innerHTML = `Temperature: ${journal.temp} C&deg;`;
+        dateElement.textContent = `Date: ${journal.date}`;
+        contentElement.textContent = `Your feelings: ${journal.content}`;
     } 
 }
 
