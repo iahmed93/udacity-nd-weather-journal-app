@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install NodeJS
 
 ```
-- Install NodeJS
+https://nodejs.org/en/download/
 ```
 
 ### Installing
@@ -28,7 +28,7 @@ npm install
 
 To start the server run the following command
 ```
-npm install 
+node server.js
 ```
 
 Use the following url to go to landing page
