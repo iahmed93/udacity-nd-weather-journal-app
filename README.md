@@ -1,10 +1,38 @@
-# Weather-Journal App Project
+# Weather Journal App
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This project help user to keep his feelings about todays weather.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+## Getting Started
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+- Install NodeJS
+```
+
+### Installing
+
+Clone the project
+```
+git clone https://github.com/iahmed93/udacity-nd-weather-journal-app.git
+```
+
+Go to the directory where the cloned project is there and run the following command to install npm packages 
+```
+npm install 
+```
+
+To start the server run the following command
+```
+npm install 
+```
+
+Use the following url to go to landing page
+```
+localhost:3000
+```
+
